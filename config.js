@@ -1,40 +1,44 @@
+
 import { watchFile, unwatchFile } from 'fs'
 import chalk from 'chalk'
 import { fileURLToPath } from 'url'
 
 global.owner = [
-  ['59172945992', 'FG98', true],
-  ['5492622271736'], 
-  ['5492622271736'] 
+  ['6282143992251', 'Ｒａｍｚｚ     ＭＤ', true],
+  ['6282143992251']
 ] //Numeros de owner 
 
-global.mods = ['573125484672'] 
-global.prems = ['50489079501', '5219631769130', '573125484672']
+global.mods = [''] 
+global.prems = ['6282143992251', '6282143992251']
 global.APIs = { // API Prefix
-  // name: 'https://website'
-  xteam: 'https://api.xteam.xyz', 
+  // name: 'https://website' 
   nrtm: 'https://fg-nrtm.ddns.net',
-  bg: 'http://bochil.ddns.net',
   fgmods: 'https://api.fgmods.xyz'
 }
 global.APIKeys = { // APIKey Here
   // 'https://website': 'apikey'
-  'https://api.xteam.xyz': 'd90a9e986e18778b',
-  'https://zenzapis.xyz': '675e34de8a', 
-  'https://api.fgmods.xyz': 'dEBWvxCY' //--- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
+  'https://api.fgmods.xyz': 'DRLg5kY7' //--- 100 de límite diario --- Regístrese en https://api.fgmods.xyz/
 }
 
 // Sticker WM
-global.packname = 'DyLux┃ᴮᴼᵀ' 
-global.author = '@fg98' 
-global.fgig = '▢ Sígueme en Instagram\nhttps://www.instagram.com/fg98_ff\n' 
-global.dygp = 'https://chat.whatsapp.com/BESBo5xjvIZE4YVvth6Yzr'
-global.fgsc = 'https://github.com/FG98F/dylux-fg' 
-global.fgyt = 'https://youtube.com/fg98f'
-global.fgpyp = 'https://paypal.me/fg98f'
-global.fglog = 'https://i.imgur.com/Owmb93c.png' 
+global.packname = 'Ｒａｍｚｚ     ＭＤ┃ᴮᴼᵀ' 
+global.author = '@rama22' 
 
-global.wait = '*⌛ _Cargando..._*\n*▰▰▰▱▱▱▱▱*'
+//--info FG
+global.botName = 'rama'
+global.fgig = 'https://www.instagram.com/rama_ff' 
+global.fgsc = 'https://github.com/FG98F/dylux-fg' 
+global.fgyt = 'https://www.youtube.com/@RAMADHANIPUTRA-vy3cj'
+global.fgpyp = 'https://paypal.me/rama98f'
+global.fglog = 'https://i.ibb.co/1zdz2j3/logo.jpgs' 
+
+//--- Grupos WA
+global.fgcanal = 'https://chat.whatsapp.com/FymtU17CGkM6FRTcD0exLS/channel/0029VaCeuZd6mYPQiWqxXj1F'
+global.bgp = 'https://chat.whatsapp.com/FymtU17CGkM6FRTcD0exLS'
+global.bgp2 = 'https://chat.whatsapp.com/FymtU17CGkM6FRTcD0exLS'
+global.bgp3 = 'https://chat.whatsapp.com/FymtU17CGkM6FRTcD0exLS' //--GP NSFW
+
+global.wait = '⌛ _TUNGGU SEBENTAR..._\n*▬▬▬▭*'
 global.rwait = '⌛'
 global.dmoji = '🤭'
 global.done = '✅'
